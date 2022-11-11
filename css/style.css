@@ -1,0 +1,680 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+  Geneva, Verdana, sans-serif;
+  main-color:#998376;
+}
+
+body {
+  perspective: 600px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+ 
+header {
+  width: 100%;
+  height: 60px;
+  
+}
+
+.logo {
+ display: flex;
+ flex-direction: row;
+justify-content: space-between;
+
+
+}
+
+.log01 {
+ 
+ font-size: 35px;
+ color: rgb(15, 2, 2);
+ 
+ 
+ 
+}
+
+.log01 span {
+  font-size: 50px;
+  color: rgb(247, 182, 5);
+
+ 
+}
+
+.MainB {
+  list-style: none;
+  margin-top: 25px;
+ 
+  
+  
+}
+
+.MainB li {
+  display: inline;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+ 
+ 
+}
+
+li a {
+  text-decoration: none;
+  color:  #998376;
+  margin-top: 10px;
+  position: relative;
+  padding: 6px;
+
+}
+
+
+
+li a::after{
+  content: "";
+  width:0;
+  height: 0;
+  border: 3px solid  #998376;
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  transition: 0.5s;
+  opacity: 0;
+  
+  
+
+}
+
+
+li a:hover::after{
+  width: 100%;
+  height:100%;
+  position: absolute;
+  top:0;
+  left:0;
+  opacity: 1;
+
+  
+
+}
+ 
+.navIcon {
+  margin-top: 25px;
+  word-spacing: 6px;
+}
+ 
+
+/*-------------------- Main ----------------*/
+
+.firstSection {
+  display: flex;
+  height: 460px;
+  background:-webkit-radial-gradient(circle farthest-corner at right center, #f7e9e9 0%, #5e4331 80%);
+  background:-o-radial-gradient(circle farthest-corner at right center, #f7e9e9 0%, #5e4331 80%);
+  background:-moz-radial-gradient(circle farthest-corner at right center, #f7e9e9 0%, #5e4331 80%);
+  background:radial-gradient(circle farthest-corner at right center, #f7e9e9 0%, #5e4331 80%);
+  margin-top: 20px;
+  
+
+}
+
+.W-chair {
+  margin-left: 50px;
+  transform: translateY(40%);
+  color: white;
+  font-size: 25px;
+}
+
+.W-chair:hover {
+  color:rgb(223, 205, 186) ; ;
+}
+
+.W-chair button{
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  background: rgb(117, 98, 69) ;
+  color: white;
+  border: none;
+  margin-top: 20px;
+ 
+  border-radius: 10px;
+
+}
+
+.W-chair button:hover{
+  opacity: 0.7;
+}
+.firstSection img {
+  width: 400px;
+  height: 350px;
+  margin:auto;
+  margin-right: 100px;
+
+}
+
+/*--------------- Second Section Specail ------ */
+.sec-Section {
+  height: 600px;
+}
+.second-Header {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.second-Header:hover {
+  opacity: 0.5;
+}
+
+.fir-Line {
+  width: 60px;
+  height: 3px;
+  display: block;
+  background-color: rgb(162, 100, 57);
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  
+}
+
+.fir-Line:hover {
+  width: 75px;
+}
+
+.fir-Line:hover {
+  width: 120px;
+  transition: 1s;
+}
+
+
+.myItems {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+
+}
+
+
+.my-Img {
+ margin-left: 15px;
+ margin-left: 33px;
+ 
+}
+
+.f-caption {
+  display: flex;
+  margin-top: 15px;
+ 
+  position: relative;
+ 
+}
+
+.f-item {
+  width: 270px;
+  height: 70px;
+  margin-left: 15px;
+  margin-left: 18px;
+  padding: 15px;
+  
+}
+
+
+.f-item h4 {
+  color: rgb(90, 86, 86);
+  
+}
+
+.f-item  h3 {
+  font-size: 16px;
+  
+}
+
+.f-item:hover  h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+/*------------ collap. ..............*/
+
+.f-item  h3  span {
+  display: inline-block;
+ margin-left: 15px;
+
+  
+}
+
+.f-item  h3  span:hover {
+  font-size: 16px;
+  background-color: red;
+  color:white;
+  padding: 5px;
+ 
+}
+
+/*--------------- fruitSection --------------------*/
+
+.first-Furi01 {
+ display: flex;
+ padding: 30px;
+ margin-bottom: 30px;
+ 
+}
+
+.firs-col {
+  width: 40%;
+  padding: 30px;
+  margin-right: 30px;
+  background-color: rgb(226, 207, 181);
+
+}
+
+
+.firs-col .myQuat {
+  font-size: 25px;
+  color: rgb(84, 33, 33);
+  display: block;
+  padding-right: 15px;
+}
+
+.firs-col h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: -15px;
+}
+
+.firs-col figcaption {
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.firs-col p {
+  margin-top: 15px;
+}
+
+.firs-col .lines {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.firs-col .lin01{
+  width: 62px;
+  height: 3px;
+  margin-left: 10px;
+  border: 2px solid chocolate;
+  background-color: chocolate;
+
+}
+.firs-col .lin02 {
+  width: 62px;
+  height: 3px;
+  border: 2px solid chocolate;
+  background-color: chocolate;
+  margin-left: 10px;
+
+}
+
+.firs-col .lin03{
+  width: 62px;
+  height: 3px;
+  border: 2px solid chocolate;
+  background-color: chocolate;
+  margin-left: 10px;
+
+}
+
+/*------------ part II ---------*/
+
+.sec-bar, .sec-bar01{
+  padding: 20px;
+}
+
+ .sec-bar h4 {
+  color: rgb(102, 81, 53);
+  font-size: 15px;
+}
+
+.sec-bar {
+  background-image: url(../images/cms-banner-1.jpg);
+  margin-right: 25px;
+  transition: 1s;
+}
+.sec-bar:hover {
+  transform: scale(1.2,1.2);
+}
+
+
+.sec-bar01{
+  background-image: url(../images/cms-banner-2.jpg);
+  margin-left: 25px;
+  transition: 1s;
+}
+
+.sec-bar01:hover {
+  transform: scale(1.2,1.2);
+}
+
+ .sec-bar01 h4 {
+  color: rgb(102, 81, 53);
+  font-size: 15px;
+}
+
+/*------------------- Delevary Icon -----------*/
+
+.icon-sec {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+  margin-top: 50px;
+  
+
+  
+}
+
+/*-----main address --------------*/
+.icon-Contenet {
+  height: 160px;
+  position: relative;
+  margin-left: 50px;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.icon-Contenet .icon-info {
+  padding-top: 15px;
+  text-align: center;
+  display: block;
+}
+
+
+.myIcon, .myIcon01 {
+  
+  font-size: 50px;
+  position: absolute;
+  transition: 1s;
+  margin-top: -20px;
+  margin-left: -10px;
+  
+  
+
+}
+
+.myIcon {
+  color: chocolate;
+   
+}
+
+.myIcon-sec {
+  margin-top: 50px;
+position: relative;
+transform-style: preserve-3d;
+
+
+}
+
+.Front-div .myIcon {
+  backface-visibility: hidden;
+}
+
+.myIcon01 {
+  color: darkgreen;
+  z-index: -1;
+  
+}
+
+.myIcon01:hover {
+  transform-origin:bottom;
+  transform: rotateY(180deg);
+  
+}
+
+.myIcon:hover {
+  transform: rotateY(180deg);
+
+}
+
+.icon-info {
+  text-align: center;
+  width: 200px;
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
+.icon-info h2 {
+  font-size: 22px;
+  color: grey;
+}
+
+.icon-info p {
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 500;
+  
+}
+
+.icon-info .H-line{
+  margin-left: 240px;
+  margin-top: -125px;
+  width: 2.5px;
+  height: 150px;
+  background-color: grey;
+  position: absolute;
+
+}
+
+
+/*------------------ Last-Section -------------*/
+.Feat-Head {
+  font-size: 22px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.featu-Line {
+  width: 75px;
+  height: 3px;
+  background-color: sienna;
+  margin: auto;
+  display: block;
+  transition: 0.5s;
+}
+
+.featu-Line:hover {
+  width: 150px;
+}
+
+/*------------------ Boxes -------------------------*/
+
+
+.Featur-Type {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.Featur-Type  div {
+  font-size:20px;
+  font-weight: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+/*----------------- Boxes ------------------ */
+
+.lastDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  height: 450px;
+ 
+}
+
+.lastDiv .icon-sec .front, .front02, .front03, .back, .back02, .back03 {
+  margin-left: 30px;
+  
+}
+
+
+
+.icon-sec {
+  position: relative;
+  transform-style: preserve-3d;
+  
+}
+
+.front {
+  background-image: url(../images/chair1.jpg);
+  width: 350px;
+  height: 400px;
+  background-color: rgb(175, 131, 131);
+  position: absolute;
+  z-index: 1;
+  backface-visibility: hidden;
+  transition:0.5s;
+  
+}
+
+
+.back {
+  background-image: url(../images/chair2.jpg);
+  width: 350px;
+  height: 400px;
+  background-color: rgb(78, 55, 55);
+  position: absolute;
+  
+}
+
+.front:hover {
+  transform: rotateY(180deg);
+  
+}
+
+
+.social-Icon {
+  padding-left: 50px;
+}
+
+
+.social01 {
+  font-size: 25px;
+  margin: 10px;
+  margin-top: 50%;
+  margin-left: 28px;
+  
+
+}
+
+
+/*----------------- 02 --------------- */
+
+.front02 {
+  background-image: url(../images/chair3.jpg);
+  width: 350px;
+  height: 400px;
+  background-color: rgb(175, 131, 131);
+  position: absolute;
+  z-index: 1;
+  backface-visibility: hidden;
+  transition:0.5s;
+  
+}
+
+.back02 {
+  background-image: url(../images/chair4.jpg);
+  width: 350px;
+  height: 400px;
+  background-color: rgb(78, 55, 55);
+  position: absolute;
+  
+}
+
+
+.front02:hover {
+  transform: rotateY(180deg);
+  
+}
+
+/*----------------- 03 --------------- */
+
+.front03 {
+  background-image: url(../images/chair5.jpg);
+  width: 350px;
+  height: 400px;
+  background-color: rgb(175, 131, 131);
+  position: absolute;
+  z-index: 1;
+  backface-visibility: hidden;
+  transition:0.5s;
+  
+}
+
+.back03 {
+  background-image: url(../images/chair6.jpg);
+  width: 350px;
+  height: 400px;
+  background-color: rgb(78, 55, 55);
+  position: absolute;
+  
+}
+
+
+.front03:hover {
+  transform: rotateY(180deg);
+  
+}
+
+
+/*------- ico-info ---------------- */
+
+
+
+.icon-info01 {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.icon-info01 .star {
+ width: 200px;
+ height: 90px;
+ margin-top: 50px;
+ padding-left: 20px;
+}
+
+  .icon-info01 .inf-icon {
+      color: rgb(233, 183, 20);
+      margin-bottom: 8px;
+
+
+
+      }
+
+      .icon-info01 .star p {
+        font-size: 20px;
+        margin-bottom: 10px;
+        
+       
+      
+      }
+
+      .icon-info01 span {
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: -10px;
+
+      }
